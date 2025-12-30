@@ -2,55 +2,84 @@
 <html lang="vi">
 <head>
     <meta charset="UTF-8">
-    <title>SCADA OCC Engineer</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-    <script src="assets/js/lang.js" defer></script>
+    <title>SCADA OCC – Trung tâm điều khiển</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+<!-- ===== HEADER ===== -->
 <header>
     <h1>⚡ SCADA OCC</h1>
     <nav>
         <a href="index.html">Home</a>
         <a href="download.html">Download</a>
-        <button onclick="setLang('vi')">VI</button>
-        <button onclick="setLang('en')">EN</button>
+        <a href="#">VI</a>
+        <a href="#">EN</a>
     </nav>
 </header>
 
+<!-- ===== HERO / OVERVIEW ===== -->
 <section class="hero">
-    <img src="assets/scada_occ.jpg" alt="SCADA OCC">
+    <img src="assets/img/occ.jpg" alt="OCC SCADA">
+
     <div>
-        <h2 data-vi="Kỹ sư SCADA – Hệ thống điện"
-            data-en="SCADA Engineer – Power Systems"></h2>
-        <p data-vi="Giám sát – Điều khiển – Tự động hóa lưới điện"
-           data-en="Monitoring – Control – Power Automation"></p>
+        <h2>Kỹ sư SCADA – Hệ thống điện</h2>
+        <p>
+            Giám sát – Điều khiển – Tự động hóa lưới điện<br>
+            Trung tâm điều khiển xa (OCC)
+        </p>
+
+        <div class="card">
+            <h3>🎯 Phạm vi vận hành</h3>
+            <ul>
+                <li>Nhà máy thủy điện</li>
+                <li>Trạm 110kV / 35kV / 22kV</li>
+                <li>Lưới điện phân phối</li>
+            </ul>
+        </div>
     </div>
 </section>
 
-<section class="content">
-    <h3 data-vi="Chuyên môn"
-        data-en="Expertise"></h3>
-    <ul>
-        <li>IEC 60870-5-104 / IEC 101</li>
-        <li>RTU – REC – LBS – Recloser</li>
-        <li>SCADA OCC / SP5 / WinCC</li>
-        <li>OT Cyber Security</li>
-    </ul>
-</section>
-
-<section class="hero">
-    <img src="assets/substation.jpg" alt="Substation">
-    <div>
-        <h3 data-vi="Hệ thống đang vận hành"
-            data-en="Operational Systems"></h3>
-        <p data-vi="Nhà máy thủy điện – Trạm điện – Lưới phân phối"
-           data-en="Hydropower Plants – Substations – Distribution Grid"></p>
+<!-- ===== TECHNICAL CAPABILITY ===== -->
+<section>
+    <div class="card">
+        <h3>🧠 Năng lực kỹ thuật</h3>
+        <ul>
+            <li>IEC 60870-5-104 / IEC 101</li>
+            <li>RTU – REC – LBS – Recloser</li>
+            <li>SCADA OCC / SP5 / WinCC</li>
+            <li>Mô phỏng RTU – ASDU – Telecontrol</li>
+            <li>OT Cyber Security</li>
+        </ul>
     </div>
 </section>
 
+<!-- ===== SYSTEM STATUS ===== -->
+<section class="hero">
+    <div class="card">
+        <h3>📡 Hệ thống đang vận hành</h3>
+        <ul>
+            <li>OCC – Trung tâm điều khiển</li>
+            <li>Trạm không người trực</li>
+            <li>REC/LBS điều khiển xa</li>
+            <li>Thu thập – Giám sát thời gian thực</li>
+        </ul>
+    </div>
+
+    <img src="assets/img/substation.jpg" alt="Substation">
+</section>
+
+<!-- ===== SINGLE LINE ===== -->
+<section>
+    <div class="card">
+        <h3>📊 Single Line Diagram</h3>
+        <img src="assets/img/sld.png" alt="SLD" style="width:100%; border-radius:8px;">
+    </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
 <footer>
-    © 2025 Đỗ Long – SCADA Engineer
+    © 2025 Long Do – SCADA Engineer | EVN OCC Style Interface
 </footer>
 
 </body>
